@@ -16,6 +16,6 @@ Gem::Specification.new do |gem|
 
   gem.required_ruby_version = ">= 1.9.2"
 
-  gem.add_dependency "activercord", "~> 3.1.2"
-  gem.add_dependency "appetizer",   "~> 0.0"
+  gem.add_dependency "activerecord", "~> 3.1.2"
+  gem.add_dependency "appetizer",    "~> 0.0"
 end
