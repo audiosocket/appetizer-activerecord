@@ -12,10 +12,10 @@ Gem::Specification.new do |gem|
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   gem.name          = "appetizer-activerecord"
   gem.require_paths = ["lib"]
-  gem.version       = "0.0.0"
+  gem.version       = "0.1.0"
 
   gem.required_ruby_version = ">= 1.9.2"
 
-  gem.add_dependency "activerecord", "~> 3.1.2"
-  gem.add_dependency "appetizer",    "~> 0.0"
+  gem.add_dependency "activerecord", "~> 3.2.0"
+  gem.add_dependency "appetizer",    "~> 0.1"
 end
